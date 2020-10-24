@@ -15,7 +15,7 @@ workflows:
           repo: "hello-world"
           comment_type:  "pr"
           number: 1
-          format: "testing<br/>{{.}}"
-          comment: "testing"
+          format: "Comment by orb<br/>{{.}}"
+          comment: "testing123"
 
 
