@@ -11,10 +11,9 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - commenter-orb/comment:
-          token: "XXXXXXXXXXXXXXXXXXXXXXXXXXX"
           owner: "17sushmita"
           repo: "hello-world"
-          type:  "pr"
+          comment_type:  "pr"
           number: 1
           format: "testing<br/>{{.}}"
           comment: "testing"
