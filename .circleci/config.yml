@@ -2,9 +2,7 @@
 version: 2.1
 # Use a package of configuration called an orb.
 orbs:
-  # Declare a dependency on the welcome-orb
-  commenter-orb: sushmita/commenter-orb@dev:alpha
-# Orchestrate or schedule a set of jobs
+  commenter-orb: sushmita/commenter-orb@1.0.0
 workflows:
   # Name the workflow "welcome"
   use-my-orb:
